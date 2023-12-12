@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- chamando Css -->
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/LOGO_1-pl31iyzcdq2tjj4ri6topto8iqstydir7qjjg2ld80.png" alt="img-log-devclub" id="log" />
+        <div><span style="color:rgb(77, 228, 89);font-size: 22px;">C</span>onversor</div>
+    </header>
+
+    <main>
+        <div class="conteiner">
+
+            <label for="number">Converter de</label>
+            <select class="Opcao_Moeda_one">
+                <option value="brasil">R$ Real Brasileiro</option>
+                <option value="euro" >  € Euro </option>
+                <option value="libra">  £ Libra</option>
+                <option value="bitcoin">₿ Bitcoin </option>
+            </select>
+          
+            <label for="number">Converter para</label>
+                
+            <select class="Option_Moeda_thu">
+                <option value="dolar">  U$ Dólar americano </option>
+                <option value="euro" >  € Euro </option>
+                <option value="libra">  £ Libra</option>
+                <option value="bitcoin">₿ Bitcoin </option>
+            </select>
+
+            </br>
+            </br>
+
+            <label for="text">Valor</label>
+            <input type="number" id="apagar" placeholder="R$ 10,00" class="input-currency"/>
+
+            <button onclick=" converterVal()">Converter</button>
+
+
+            <div class="box_conteiner">
+
+                <img src="img/brasil.png" alt="img_brasil" id="imgbrasil"  class="current-img_one">
+                <p  id="EstadoNameMoeda">Brasil</p>
+                <p id="SaidValor">0.0</p>
+
+                <img src="img/seta-para-baixo.png" id="seta"/>
+                
+                <p id="Current-states"></p>
+                <img src="img/USA.png" alt="Img_estadoUnids" id="imgstates" class="current-img_thu">
+                <p id="EstadoNameMoedaConvertida">Dólar</p>
+                <p id="SaidValorConvert">0.0</p>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+</body>
+<!-- javascript -->
+<script src="index.js"></script>
+
+</html>
