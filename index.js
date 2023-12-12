@@ -271,9 +271,7 @@ if (Select_CofreMoeda_one.value == "bitcoin" && CofreMoeda.value == "libra") {
       SaidValorReal.innerHTML="Duplicidade!" 
       SaidaVConvertid.innerHTML="Valores Iguais."; 
     }
-    if(Select_CofreMoeda_one.value != CofreMoeda.value ){
-       alert('diferente')
-      }
+   
     // fim d validaçaõ 
 }
 
