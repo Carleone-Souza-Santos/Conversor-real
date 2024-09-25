@@ -42,11 +42,12 @@ div {
 main {
     display: flex;
     justify-content: center;
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center; 
     background-image: url(img/img_main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh; /* Alterado para garantir que ocupe toda a tela */
+    height: 100vh; 
+    width: 100vw;  
 }
 
 .conteiner {
@@ -58,12 +59,14 @@ main {
     -webkit-backdrop-filter: blur(13.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    display: block;
     padding: 20px;
     height: 500px;
     width: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
-
 label {
     color: var(--cor-black);
     font-family: var(--font-family);
