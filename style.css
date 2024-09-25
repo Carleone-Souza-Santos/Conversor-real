@@ -40,19 +40,18 @@ div {
 
 
 main {
-
     display: flex;
     justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
     background-image: url(img/img_main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90.3vh;
+    height: 100vh; /* Alterado para garantir que ocupe toda a tela */
 }
 
 .conteiner {
     font-family: var(--font-family);
     font-size: 18px;
-    margin-top: 2%;
     background: rgba(255, 255, 255, 0.35);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(13.5px);
@@ -60,10 +59,9 @@ main {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     display: block;
-    padding: 20px 20px;
+    padding: 20px;
     height: 500px;
     width: 300px;
-    border-radius: 10px;
 }
 
 label {
